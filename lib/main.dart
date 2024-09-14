@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:training/radio_example.dart';
 
-import 'home.dart';
+import 'buttons_example.dart';
+import 'checkbox_example.dart';
+import 'switch_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.tealAccent),
         useMaterial3: true,
       ),
-      home: const ExampleCheckBox(),
+      home: const ButtonsExample(),
     );
   }
 }
