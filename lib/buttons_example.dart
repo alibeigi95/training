@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 
 class ButtonsExample extends StatefulWidget {
@@ -18,11 +19,15 @@ class _ButtonsExampleState extends State<ButtonsExample> {
           backgroundColor: Colors.tealAccent,
         ),
         body: _body(),
-        floatingActionButton: FloatingActionButton(
+        floatingActionButton:*/
+/* FloatingActionButton(
           onPressed: _showDialog,
           child: const Icon(Icons.add),
-        ),
-        /*Stack(
+        ),*//*
+
+*/
+/*
+        Stack(
           children: <Widget>[
             if (_isExpanded) ...[
               Positioned(
@@ -59,7 +64,9 @@ class _ButtonsExampleState extends State<ButtonsExample> {
               ),
             ),
           ],
-        )*/
+        )
+*//*
+
       );
 
   void _toggleButtons() {
@@ -332,3 +339,4 @@ class _ButtonsExampleState extends State<ButtonsExample> {
     );
   }
 }
+*/
