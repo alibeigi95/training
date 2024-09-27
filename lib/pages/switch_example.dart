@@ -31,7 +31,7 @@ class _SwitchExampleState extends State<SwitchExample> {
           ),
           ElevatedButton(
             onPressed: switchValue ? null : () {},
-            child: Text('press to add new item'),
+            child: const Text('press to add new item'),
           )
         ],
       );
